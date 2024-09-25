@@ -12,7 +12,7 @@ public class Assignment_09 {
 
     public static void main(String[] args) {
         // Calling the static function
-        Assignment_09.staticMethod();
+        staticMethod();
 
         Assignment_09 obj = new Assignment_09();
         // Calling the non-static function using object
