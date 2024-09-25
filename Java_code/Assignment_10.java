@@ -15,17 +15,17 @@ class Person {
         this.age = age;   
     }
 
-    public void displayInfo() {
+    public void display() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
 }
 public class Assignment_10 {
     public static void main(String[] args) {
-        Person defaultPerson = new Person();
-        defaultPerson.displayInfo();
+        Person obj = new Person();
+        obj.display();
 
         // Using the parameterised constructor to create an object
-        Person parameterizedPerson = new Person("Alice", 30);
-        parameterizedPerson.displayInfo();
+        Person obj2 = new Person("Lokesh",20);
+        obj2.display();
     }
 }
