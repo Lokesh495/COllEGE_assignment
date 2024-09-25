@@ -1,4 +1,4 @@
-class Base {
+⁹class Base {
     int a, b;
     
     Base(int a, int b) {
@@ -38,7 +38,7 @@ class Derived2 extends Derived {
     }
 
     void divide() {
-        System.out.println("Division in FurtherDerived class: " + (a * b * c / d));
+        System.out.println("Division in Derived2 class: " + (a * b * c / d));
     }
 }
 
