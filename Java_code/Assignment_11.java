@@ -1,11 +1,10 @@
 class Base{
     private int a;
-    static private Base obj;
     private Base(int a){
         this.a=a;
     }
     static Base Tocall_private(int a){
-        obj = new Base(a);
+        Base obj = new Base(a);
         return obj;
     }
     void display(){
